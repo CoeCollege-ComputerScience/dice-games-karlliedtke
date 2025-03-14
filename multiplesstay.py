@@ -1,5 +1,4 @@
 import random
-
 def diceroll(i):
     rolls = [random.randint(1,6) for i in range(i)]
     return rolls
