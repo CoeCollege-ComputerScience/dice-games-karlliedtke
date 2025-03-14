@@ -23,7 +23,7 @@ def pig():
                 print(f"player 1 total before current turn: {total_player_1}\n")
             elif player == 2:
                 print(f"player 2 total before current turn: {total_player_2}\n")
-            if turn_total >= 20:
+            if turn_total >= 100:
                 print(f"player {player} wins with a turn total of {turn_total}")
                 return
             choice = input("do you want to hold or roll? hold/roll: ").strip().lower()
@@ -38,14 +38,14 @@ def pig():
         if player == 1:
             total_player_1 += turn_total
             print(f"\nplayer 1 total: {total_player_1}")
-            if total_player_1 >= 20:
+            if total_player_1 >= 100:
                 print("player 1 wins")
                 return
             player = 2
         else:
             total_player_2 += turn_total
             print(f"\nplayer 2 total: {total_player_2}")
-            if total_player_2 >= 20:
+            if total_player_2 >= 100:
                 print("player 2 wins")
                 return
             player = 1
