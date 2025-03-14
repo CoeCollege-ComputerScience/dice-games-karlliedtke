@@ -1,4 +1,5 @@
 import random
+
 def rolldice(i):
     rolls = [random.randint(1,6) for i in range(i)]
     return rolls
