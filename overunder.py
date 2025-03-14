@@ -40,7 +40,7 @@ while True:
 
     player2points += take_turn()
     print(f"player2points: {player2points}")
-    if player2points ==2:
+    if player2points ==6:
             print("Game over, player 1 wins")
             break
     
@@ -54,6 +54,6 @@ while True:
 
     player1points += take_turn()
     print(f"player1points: {player1points}")
-    if player1points ==2:
+    if player1points ==6:
             print("Game over, player 1 wins")
             break
